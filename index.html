@@ -1,32 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Full Screen Red Box</title>
     <style>
-        /* Force the HTML and Body to have absolutely no spacing */
         html, body {
-            margin: 0 !important;
-            padding: 0 !important;
-            width: 100% !important;
-            height: 100% !important;
-            overflow: hidden; /* Prevents accidental scrollbars */
-        }
-
-        /* Pin the box to all 4 edges of the screen */
-        .red-box {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: #FF0000;
-            z-index: 9999; /* Ensures it sits on top of everything */
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #FF0000; /* Directly turns the entire page red */
         }
     </style>
 </head>
 <body>
-    <div class="red-box"></div>
 </body>
 </html>
